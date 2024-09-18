@@ -37,7 +37,7 @@
 # Step 3: Create Service Account in Kubernetes Namespace
 ## Create a service account named gke-sa in the test namespace:
 
-  kubectl create serviceaccount gke-sa --namespace=test
+      kubectl create serviceaccount gke-sa --namespace=test
 
 # Step 4: Add Service Account to Deployment File
 ## Create a deployment and service for Nginx in a single file, with the service account named gke-sa:
