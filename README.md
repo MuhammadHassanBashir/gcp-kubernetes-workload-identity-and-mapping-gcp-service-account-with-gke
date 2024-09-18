@@ -23,7 +23,7 @@
 
     gcloud container node-pools create my-node-pool \
     --cluster=my-cluster \
-    --region=us-central1 \  or --zone us-central1-c
+    --region=us-central1 \  or --zone us-central1-c(works)
     --workload-metadata=GKE_METADATA
 
 ## Update an Existing Node Pool
