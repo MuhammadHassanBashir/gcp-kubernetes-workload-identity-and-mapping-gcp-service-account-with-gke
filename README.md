@@ -31,7 +31,7 @@
 
     gcloud container node-pools update my-node-pool \
     --cluster=my-cluster \
-    --region=us-central1 \ or --zone us-central1-c
+    --region=us-central1 \ or --zone us-central1-c(works)
     --workload-metadata=GKE_METADATA
 
 # Step 3: Create Service Account in Kubernetes Namespace
