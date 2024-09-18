@@ -23,15 +23,16 @@
 
     gcloud container node-pools create my-node-pool \
     --cluster=my-cluster \
-    --region=us-central1 \  or --zone us-central1-c(works)
+    --region=us-central1 \  or --zone us-central1-c
     --workload-metadata=GKE_METADATA
-
+    
+    use --zone for zonal nodes and --region for regional node
 ## Update an Existing Node Pool
 ### Enable the GKE Metadata Server on an existing node pool:
 
     gcloud container node-pools update my-node-pool \
     --cluster=my-cluster \
-    --region=us-central1 \ or --zone us-central1-c(works)
+    --region=us-central1 \ or --zone us-central1-c
     --workload-metadata=GKE_METADATA
 
 # Step 3: Create Service Account in Kubernetes Namespace
